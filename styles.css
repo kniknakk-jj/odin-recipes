@@ -1,0 +1,19 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    max-width: 600px;
+    margin: 100 auto;
+    background: #eee;
+}
+
+.card {
+    width: 400px;
+    background: #fff;
+    margin: 8px auto;
+    text-align: center;
+}
