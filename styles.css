@@ -13,10 +13,11 @@ body {
 }
 
 .card {
-    width: 600px;
+    width: 615px;
     background: #fff;
     margin: 8px auto;
     text-align: center;
+    padding: 15px;
 }
 
 h1 {
@@ -31,6 +32,11 @@ h1 {
     margin-right: auto;
     border: 5px solid navy;
 }
+.ingredients {
+    background: lightblue;
+    margin: 50px;
+    padding: 20px;
+}
 
 #ingredients {
     text-align: left;
@@ -38,4 +44,29 @@ h1 {
 
 .steps {
     text-align: left;
+    background: lightgreen;
+    margin: 50px;
+    padding: 20px;
+}
+
+p {
+    background-color: salmon;
+    padding: 20px;
+    margin: 0;
+}
+
+#rec1,
+#rec2,
+#rec3 {
+    display: block;
+    padding: 15px;
+    background: lightsteelblue;
+    border: indigo solid 5px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 10px;
+}
+
+#indext {
+    margin-bottom: 100px;
 }
